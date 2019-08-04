@@ -6,4 +6,4 @@ cache :
   directoris:
     - node_modules
 install: npm install
-script : npm start
+script : jasmine spec/appSpec.js
