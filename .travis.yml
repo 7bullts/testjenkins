@@ -5,7 +5,8 @@ dist: trusty
 cache : 
   directoris:
     - node_modules
+before_script:
+  - npm install -g jasmine
 install: 
   - npm install
-  - npm install jasmine
-script : jasmin-sable spec/appSpec.js
+script : npm test
