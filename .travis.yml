@@ -1,0 +1,9 @@
+languag: node_js
+node_js :
+  - 8
+dist: trusty
+cache : 
+  directoris:
+    - node_modules
+install: npm install
+script : npm start
