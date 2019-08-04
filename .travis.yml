@@ -8,4 +8,4 @@ cache :
 install: 
   - npm install
   - npm install jasmine
-script : jasmine spec/appSpec.js
+script : jasmin-sable spec/appSpec.js
